@@ -14,7 +14,7 @@ global pass := A_Args[2]
 
 login(){
 	WinActivate, Riot Client
-	MouseClick, left, 150, 300
+	MouseClick, left, 250, 250
 	Send, ^a
 	Send, {Delete}
 	Send, %login%
